@@ -1,0 +1,11 @@
+.icon{
+    display: none;
+    border: none;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 2rem;
+}
+.icon:hover{
+    color: var(--accent-blue);
+}

@@ -1,0 +1,12 @@
+.movie-detail{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+    padding-inline: 1rem;
+}
+@media (min-width: 800px) {
+    .movie-detail{
+        grid-template-columns: 1fr 500px;
+        gap: 1rem;
+    }
+}

@@ -1,0 +1,8 @@
+.movie-info{
+    width: minmax(200px,fit-content);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-inline: 7px;
+}
+

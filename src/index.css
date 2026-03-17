@@ -1,0 +1,31 @@
+:root{
+    --dark-black: #05050A;
+    --grey: #222;
+    --light-blue: #C9D2F2;
+    --neon-blue: #11C7FF;
+    --blue: #00AEEF;
+    --neon-purple: #8B2CFF;
+    --soft-white: #EAF0FF;
+    --linear-gradient: linear-gradient(to bottom right, var(--neon-blue), var(--neon-purple));
+
+    --ff-future: "Orbitron", sans-serif;
+
+    --pm-bg: var(--grey);
+    --sc-bg: var(--dark-black);
+    --accent-blue: var(--blue);
+    --accent-yellow: #FFD369;
+    --text-soft-white: var(--soft-white);
+    --sc-color: var(--neon-blue);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    background: var(--pm-bg);
+}
+#root{
+    height: 100%;
+}

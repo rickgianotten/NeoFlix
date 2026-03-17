@@ -1,0 +1,12 @@
+.nav-btn{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    background-color: var(--accent-blue);
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    box-shadow: 0px 0px 8px var(--blue);
+}
+.nav-btn:hover{
+    box-shadow: 0px 0px 12px var(--blue);
+}
